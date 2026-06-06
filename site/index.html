@@ -272,7 +272,7 @@
     <script>
       const contactForm = document.querySelector("#contactForm");
       contactForm.addEventListener("submit", async (event) => {
-        if (location.hostname === "127.0.0.1" || location.hostname === "localhost" || location.protocol === "file:") {
+        if (location.hostname === "127.0.0.1" || location.hostname === "localhost" || location.protocol === "file:" || location.hostname.endsWith("github.io")) {
           event.preventDefault();
           window.location.href = "./thanks.html";
           return;
