@@ -1,0 +1,1462 @@
+{
+  "entries": [
+    {
+      "name": "mimetype",
+      "size": 45,
+      "kind": "text",
+      "raw": "raw/mimetype"
+    },
+    {
+      "name": "manifest",
+      "size": 10265,
+      "kind": "text",
+      "raw": "raw/manifest"
+    },
+    {
+      "name": "META-INF/metadata.xml",
+      "size": 3554,
+      "kind": "text",
+      "raw": "raw/META-INF/metadata.xml"
+    },
+    {
+      "name": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "size": 986279,
+      "kind": "text",
+      "raw": "raw/artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc"
+    },
+    {
+      "name": "artwork/artboard-827bbae7-5b98-4964-b99d-51f20b318f5f/graphics/graphicContent.agc",
+      "size": 76386,
+      "kind": "text",
+      "raw": "raw/artwork/artboard-827bbae7-5b98-4964-b99d-51f20b318f5f/graphics/graphicContent.agc"
+    },
+    {
+      "name": "artwork/artboard-a5d49308-58f3-450b-bb9a-c20879faaec8/graphics/graphicContent.agc",
+      "size": 991446,
+      "kind": "text",
+      "raw": "raw/artwork/artboard-a5d49308-58f3-450b-bb9a-c20879faaec8/graphics/graphicContent.agc"
+    },
+    {
+      "name": "artwork/artboard-e795616f-a536-4ded-b0b5-e5449af5e7f8/graphics/graphicContent.agc",
+      "size": 75818,
+      "kind": "text",
+      "raw": "raw/artwork/artboard-e795616f-a536-4ded-b0b5-e5449af5e7f8/graphics/graphicContent.agc"
+    },
+    {
+      "name": "artwork/pasteboard/graphics/graphicContent.agc",
+      "size": 1446936,
+      "kind": "text",
+      "raw": "raw/artwork/pasteboard/graphics/graphicContent.agc"
+    },
+    {
+      "name": "interactions/interactions.json",
+      "size": 18,
+      "kind": "text",
+      "raw": "raw/interactions/interactions.json"
+    },
+    {
+      "name": "preview.png",
+      "size": 474415,
+      "kind": "image",
+      "raw": "raw/preview.png"
+    },
+    {
+      "name": "renditions/image-327-2048.png",
+      "size": 474415,
+      "kind": "image",
+      "raw": "raw/renditions/image-327-2048.png"
+    },
+    {
+      "name": "renditions/image-82-512.png",
+      "size": 43695,
+      "kind": "image",
+      "raw": "raw/renditions/image-82-512.png"
+    },
+    {
+      "name": "resources/0019c6cde6c2bb4e78f0e21c76d7b383",
+      "size": 229565,
+      "kind": "image",
+      "raw": "raw/resources/0019c6cde6c2bb4e78f0e21c76d7b383"
+    },
+    {
+      "name": "resources/049c77f423e08a216776ca12e6f7ad4e",
+      "size": 24823355,
+      "kind": "image",
+      "raw": "raw/resources/049c77f423e08a216776ca12e6f7ad4e"
+    },
+    {
+      "name": "resources/0b5d1a7dc1aff4c41a14e4e77fd1151f",
+      "size": 1668722,
+      "kind": "image",
+      "raw": "raw/resources/0b5d1a7dc1aff4c41a14e4e77fd1151f"
+    },
+    {
+      "name": "resources/118d13b3b67934923fea0b4e6bda6301",
+      "size": 16595968,
+      "kind": "image",
+      "raw": "raw/resources/118d13b3b67934923fea0b4e6bda6301"
+    },
+    {
+      "name": "resources/1a425adca8248b1da5d451ce5fb15370",
+      "size": 84036,
+      "kind": "image",
+      "raw": "raw/resources/1a425adca8248b1da5d451ce5fb15370"
+    },
+    {
+      "name": "resources/1bf0fb0ed08ee36a841194d47ed6f1c5",
+      "size": 244550,
+      "kind": "image",
+      "raw": "raw/resources/1bf0fb0ed08ee36a841194d47ed6f1c5"
+    },
+    {
+      "name": "resources/238a733ff326d67ca31fe04338a123ff",
+      "size": 232320,
+      "kind": "image",
+      "raw": "raw/resources/238a733ff326d67ca31fe04338a123ff"
+    },
+    {
+      "name": "resources/2c9b44454dbc535885b13a4a66a7f8ec",
+      "size": 2856316,
+      "kind": "image",
+      "raw": "raw/resources/2c9b44454dbc535885b13a4a66a7f8ec"
+    },
+    {
+      "name": "resources/3af51ba4d3f0c24b0bcbe4f1d4ce3b5c",
+      "size": 165520,
+      "kind": "image",
+      "raw": "raw/resources/3af51ba4d3f0c24b0bcbe4f1d4ce3b5c"
+    },
+    {
+      "name": "resources/3bf905b1b4c62dcc618a10cf594c2c84",
+      "size": 1596158,
+      "kind": "image",
+      "raw": "raw/resources/3bf905b1b4c62dcc618a10cf594c2c84"
+    },
+    {
+      "name": "resources/3d5de371ae59e96db514baba44ea71b6",
+      "size": 174281,
+      "kind": "image",
+      "raw": "raw/resources/3d5de371ae59e96db514baba44ea71b6"
+    },
+    {
+      "name": "resources/3e08b0cbfc822a1e1a0ffccf5f95e076",
+      "size": 8347071,
+      "kind": "image",
+      "raw": "raw/resources/3e08b0cbfc822a1e1a0ffccf5f95e076"
+    },
+    {
+      "name": "resources/69ee2bcf5598cfd5851bb9ab6410db9d",
+      "size": 188661,
+      "kind": "image",
+      "raw": "raw/resources/69ee2bcf5598cfd5851bb9ab6410db9d"
+    },
+    {
+      "name": "resources/6a2a6cad4ad84fe43d4b8d017589b3fb",
+      "size": 11151545,
+      "kind": "image",
+      "raw": "raw/resources/6a2a6cad4ad84fe43d4b8d017589b3fb"
+    },
+    {
+      "name": "resources/7830e49443520ee9f5ee27e31a1ad234",
+      "size": 4808631,
+      "kind": "image",
+      "raw": "raw/resources/7830e49443520ee9f5ee27e31a1ad234"
+    },
+    {
+      "name": "resources/7bf7302aa123dfc08b73a79e28a78f1b",
+      "size": 295144,
+      "kind": "image",
+      "raw": "raw/resources/7bf7302aa123dfc08b73a79e28a78f1b"
+    },
+    {
+      "name": "resources/875790c1927750bb0f1b5bf33b6f8490",
+      "size": 213484,
+      "kind": "image",
+      "raw": "raw/resources/875790c1927750bb0f1b5bf33b6f8490"
+    },
+    {
+      "name": "resources/99b243a34dd16c926b2cbae1f23afdcd",
+      "size": 1137164,
+      "kind": "image",
+      "raw": "raw/resources/99b243a34dd16c926b2cbae1f23afdcd"
+    },
+    {
+      "name": "resources/a81c70ece9b528392dcd117740c2287e",
+      "size": 1289946,
+      "kind": "image",
+      "raw": "raw/resources/a81c70ece9b528392dcd117740c2287e"
+    },
+    {
+      "name": "resources/b1103887207f463ca6c328cc0402a201",
+      "size": 276310,
+      "kind": "image",
+      "raw": "raw/resources/b1103887207f463ca6c328cc0402a201"
+    },
+    {
+      "name": "resources/b4483fbd33320bf750e5a5c474a8ec3f",
+      "size": 194731,
+      "kind": "image",
+      "raw": "raw/resources/b4483fbd33320bf750e5a5c474a8ec3f"
+    },
+    {
+      "name": "resources/c3289e2856573bd42e70fd6a3a4d8de1",
+      "size": 211601,
+      "kind": "image",
+      "raw": "raw/resources/c3289e2856573bd42e70fd6a3a4d8de1"
+    },
+    {
+      "name": "resources/c6c77fc2003d10708cd896486e1d5b25",
+      "size": 326106,
+      "kind": "image",
+      "raw": "raw/resources/c6c77fc2003d10708cd896486e1d5b25"
+    },
+    {
+      "name": "resources/cbc9524f5ce7353c883eadfbe13c01ca",
+      "size": 12415678,
+      "kind": "image",
+      "raw": "raw/resources/cbc9524f5ce7353c883eadfbe13c01ca"
+    },
+    {
+      "name": "resources/d262fed6e5d5217ad56c6cf3c63dc7a8",
+      "size": 210620,
+      "kind": "image",
+      "raw": "raw/resources/d262fed6e5d5217ad56c6cf3c63dc7a8"
+    },
+    {
+      "name": "resources/d28766dc7b84701e999d29855e6efd15",
+      "size": 18269019,
+      "kind": "image",
+      "raw": "raw/resources/d28766dc7b84701e999d29855e6efd15"
+    },
+    {
+      "name": "resources/d3e134139ae99d8c663d614ab190bc24",
+      "size": 139598,
+      "kind": "image",
+      "raw": "raw/resources/d3e134139ae99d8c663d614ab190bc24"
+    },
+    {
+      "name": "resources/dd24f70c8f694900bd68ab01f833e04c",
+      "size": 14507597,
+      "kind": "image",
+      "raw": "raw/resources/dd24f70c8f694900bd68ab01f833e04c"
+    },
+    {
+      "name": "resources/df5ce4573d5854aa1e917ae40e5428b1",
+      "size": 3272887,
+      "kind": "image",
+      "raw": "raw/resources/df5ce4573d5854aa1e917ae40e5428b1"
+    },
+    {
+      "name": "resources/e54482d72175cadaabc0e58d7bb85202",
+      "size": 212123,
+      "kind": "image",
+      "raw": "raw/resources/e54482d72175cadaabc0e58d7bb85202"
+    },
+    {
+      "name": "resources/ea5be846b824aa3940e88b0dc1454adb",
+      "size": 217644,
+      "kind": "image",
+      "raw": "raw/resources/ea5be846b824aa3940e88b0dc1454adb"
+    },
+    {
+      "name": "resources/ed3bcad295362e54029b0c42329c7c7a",
+      "size": 249791,
+      "kind": "image",
+      "raw": "raw/resources/ed3bcad295362e54029b0c42329c7c7a"
+    },
+    {
+      "name": "resources/f0d6b25eabb0cbfdaf61b6437b898c6b",
+      "size": 5393869,
+      "kind": "image",
+      "raw": "raw/resources/f0d6b25eabb0cbfdaf61b6437b898c6b"
+    },
+    {
+      "name": "resources/f4d0dc0fa8dee873eebdd167526a0fda",
+      "size": 5184358,
+      "kind": "image",
+      "raw": "raw/resources/f4d0dc0fa8dee873eebdd167526a0fda"
+    },
+    {
+      "name": "resources/f7ec08efb652332e94d578e74f94f694",
+      "size": 163819,
+      "kind": "image",
+      "raw": "raw/resources/f7ec08efb652332e94d578e74f94f694"
+    },
+    {
+      "name": "resources/graphics/graphicContent.agc",
+      "size": 158719,
+      "kind": "text",
+      "raw": "raw/resources/graphics/graphicContent.agc"
+    },
+    {
+      "name": "sharing/sharing.json",
+      "size": 35,
+      "kind": "text",
+      "raw": "raw/sharing/sharing.json"
+    },
+    {
+      "name": "thumbnail.png",
+      "size": 43695,
+      "kind": "image",
+      "raw": "raw/thumbnail.png"
+    }
+  ],
+  "images": [
+    {
+      "name": "d28766dc7b84701e999d29855e6efd15.png",
+      "source": "resources/d28766dc7b84701e999d29855e6efd15",
+      "size": 18269019,
+      "path": "images/d28766dc7b84701e999d29855e6efd15.png",
+      "dimensions": [
+        9504,
+        6336
+      ]
+    },
+    {
+      "name": "dd24f70c8f694900bd68ab01f833e04c.png",
+      "source": "resources/dd24f70c8f694900bd68ab01f833e04c",
+      "size": 14507597,
+      "path": "images/dd24f70c8f694900bd68ab01f833e04c.png",
+      "dimensions": [
+        9504,
+        6336
+      ]
+    },
+    {
+      "name": "f0d6b25eabb0cbfdaf61b6437b898c6b.png",
+      "source": "resources/f0d6b25eabb0cbfdaf61b6437b898c6b",
+      "size": 5393869,
+      "path": "images/f0d6b25eabb0cbfdaf61b6437b898c6b.png",
+      "dimensions": [
+        9504,
+        6336
+      ]
+    },
+    {
+      "name": "cbc9524f5ce7353c883eadfbe13c01ca.jpg",
+      "source": "resources/cbc9524f5ce7353c883eadfbe13c01ca",
+      "size": 12415678,
+      "path": "images/cbc9524f5ce7353c883eadfbe13c01ca.jpg",
+      "dimensions": [
+        5427,
+        8140
+      ]
+    },
+    {
+      "name": "118d13b3b67934923fea0b4e6bda6301.png",
+      "source": "resources/118d13b3b67934923fea0b4e6bda6301",
+      "size": 16595968,
+      "path": "images/118d13b3b67934923fea0b4e6bda6301.png",
+      "dimensions": [
+        4672,
+        7008
+      ]
+    },
+    {
+      "name": "3e08b0cbfc822a1e1a0ffccf5f95e076.jpg",
+      "source": "resources/3e08b0cbfc822a1e1a0ffccf5f95e076",
+      "size": 8347071,
+      "path": "images/3e08b0cbfc822a1e1a0ffccf5f95e076.jpg",
+      "dimensions": [
+        4016,
+        6016
+      ]
+    },
+    {
+      "name": "049c77f423e08a216776ca12e6f7ad4e.jpg",
+      "source": "resources/049c77f423e08a216776ca12e6f7ad4e",
+      "size": 24823355,
+      "path": "images/049c77f423e08a216776ca12e6f7ad4e.jpg",
+      "dimensions": [
+        4000,
+        6000
+      ]
+    },
+    {
+      "name": "6a2a6cad4ad84fe43d4b8d017589b3fb.png",
+      "source": "resources/6a2a6cad4ad84fe43d4b8d017589b3fb",
+      "size": 11151545,
+      "path": "images/6a2a6cad4ad84fe43d4b8d017589b3fb.png",
+      "dimensions": [
+        4043,
+        2695
+      ]
+    },
+    {
+      "name": "df5ce4573d5854aa1e917ae40e5428b1.png",
+      "source": "resources/df5ce4573d5854aa1e917ae40e5428b1",
+      "size": 3272887,
+      "path": "images/df5ce4573d5854aa1e917ae40e5428b1.png",
+      "dimensions": [
+        2412,
+        1838
+      ]
+    },
+    {
+      "name": "7830e49443520ee9f5ee27e31a1ad234.png",
+      "source": "resources/7830e49443520ee9f5ee27e31a1ad234",
+      "size": 4808631,
+      "path": "images/7830e49443520ee9f5ee27e31a1ad234.png",
+      "dimensions": [
+        1792,
+        2400
+      ]
+    },
+    {
+      "name": "f4d0dc0fa8dee873eebdd167526a0fda.png",
+      "source": "resources/f4d0dc0fa8dee873eebdd167526a0fda",
+      "size": 5184358,
+      "path": "images/f4d0dc0fa8dee873eebdd167526a0fda.png",
+      "dimensions": [
+        2752,
+        1536
+      ]
+    },
+    {
+      "name": "3bf905b1b4c62dcc618a10cf594c2c84.png",
+      "source": "resources/3bf905b1b4c62dcc618a10cf594c2c84",
+      "size": 1596158,
+      "path": "images/3bf905b1b4c62dcc618a10cf594c2c84.png",
+      "dimensions": [
+        1500,
+        1500
+      ]
+    },
+    {
+      "name": "1a425adca8248b1da5d451ce5fb15370.jpg",
+      "source": "resources/1a425adca8248b1da5d451ce5fb15370",
+      "size": 84036,
+      "path": "images/1a425adca8248b1da5d451ce5fb15370.jpg",
+      "dimensions": [
+        1882,
+        870
+      ]
+    },
+    {
+      "name": "d3e134139ae99d8c663d614ab190bc24.jpg",
+      "source": "resources/d3e134139ae99d8c663d614ab190bc24",
+      "size": 139598,
+      "path": "images/d3e134139ae99d8c663d614ab190bc24.jpg",
+      "dimensions": [
+        1882,
+        870
+      ]
+    },
+    {
+      "name": "a81c70ece9b528392dcd117740c2287e.png",
+      "source": "resources/a81c70ece9b528392dcd117740c2287e",
+      "size": 1289946,
+      "path": "images/a81c70ece9b528392dcd117740c2287e.png",
+      "dimensions": [
+        1120,
+        1405
+      ]
+    },
+    {
+      "name": "99b243a34dd16c926b2cbae1f23afdcd.png",
+      "source": "resources/99b243a34dd16c926b2cbae1f23afdcd",
+      "size": 1137164,
+      "path": "images/99b243a34dd16c926b2cbae1f23afdcd.png",
+      "dimensions": [
+        1123,
+        1401
+      ]
+    },
+    {
+      "name": "e54482d72175cadaabc0e58d7bb85202.jpg",
+      "source": "resources/e54482d72175cadaabc0e58d7bb85202",
+      "size": 212123,
+      "path": "images/e54482d72175cadaabc0e58d7bb85202.jpg",
+      "dimensions": [
+        1401,
+        1123
+      ]
+    },
+    {
+      "name": "0019c6cde6c2bb4e78f0e21c76d7b383.jpg",
+      "source": "resources/0019c6cde6c2bb4e78f0e21c76d7b383",
+      "size": 229565,
+      "path": "images/0019c6cde6c2bb4e78f0e21c76d7b383.jpg",
+      "dimensions": [
+        1323,
+        1189
+      ]
+    },
+    {
+      "name": "b1103887207f463ca6c328cc0402a201.jpg",
+      "source": "resources/b1103887207f463ca6c328cc0402a201",
+      "size": 276310,
+      "path": "images/b1103887207f463ca6c328cc0402a201.jpg",
+      "dimensions": [
+        1402,
+        1122
+      ]
+    },
+    {
+      "name": "2c9b44454dbc535885b13a4a66a7f8ec.png",
+      "source": "resources/2c9b44454dbc535885b13a4a66a7f8ec",
+      "size": 2856316,
+      "path": "images/2c9b44454dbc535885b13a4a66a7f8ec.png",
+      "dimensions": [
+        1188,
+        1324
+      ]
+    },
+    {
+      "name": "238a733ff326d67ca31fe04338a123ff.jpg",
+      "source": "resources/238a733ff326d67ca31fe04338a123ff",
+      "size": 232320,
+      "path": "images/238a733ff326d67ca31fe04338a123ff.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "name": "c6c77fc2003d10708cd896486e1d5b25.jpg",
+      "source": "resources/c6c77fc2003d10708cd896486e1d5b25",
+      "size": 326106,
+      "path": "images/c6c77fc2003d10708cd896486e1d5b25.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "name": "d262fed6e5d5217ad56c6cf3c63dc7a8.jpg",
+      "source": "resources/d262fed6e5d5217ad56c6cf3c63dc7a8",
+      "size": 210620,
+      "path": "images/d262fed6e5d5217ad56c6cf3c63dc7a8.jpg",
+      "dimensions": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "name": "0b5d1a7dc1aff4c41a14e4e77fd1151f.png",
+      "source": "resources/0b5d1a7dc1aff4c41a14e4e77fd1151f",
+      "size": 1668722,
+      "path": "images/0b5d1a7dc1aff4c41a14e4e77fd1151f.png",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "1bf0fb0ed08ee36a841194d47ed6f1c5.jpg",
+      "source": "resources/1bf0fb0ed08ee36a841194d47ed6f1c5",
+      "size": 244550,
+      "path": "images/1bf0fb0ed08ee36a841194d47ed6f1c5.jpg",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "3d5de371ae59e96db514baba44ea71b6.jpg",
+      "source": "resources/3d5de371ae59e96db514baba44ea71b6",
+      "size": 174281,
+      "path": "images/3d5de371ae59e96db514baba44ea71b6.jpg",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "69ee2bcf5598cfd5851bb9ab6410db9d.jpg",
+      "source": "resources/69ee2bcf5598cfd5851bb9ab6410db9d",
+      "size": 188661,
+      "path": "images/69ee2bcf5598cfd5851bb9ab6410db9d.jpg",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "7bf7302aa123dfc08b73a79e28a78f1b.jpg",
+      "source": "resources/7bf7302aa123dfc08b73a79e28a78f1b",
+      "size": 295144,
+      "path": "images/7bf7302aa123dfc08b73a79e28a78f1b.jpg",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "875790c1927750bb0f1b5bf33b6f8490.jpg",
+      "source": "resources/875790c1927750bb0f1b5bf33b6f8490",
+      "size": 213484,
+      "path": "images/875790c1927750bb0f1b5bf33b6f8490.jpg",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "b4483fbd33320bf750e5a5c474a8ec3f.jpg",
+      "source": "resources/b4483fbd33320bf750e5a5c474a8ec3f",
+      "size": 194731,
+      "path": "images/b4483fbd33320bf750e5a5c474a8ec3f.jpg",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "c3289e2856573bd42e70fd6a3a4d8de1.jpg",
+      "source": "resources/c3289e2856573bd42e70fd6a3a4d8de1",
+      "size": 211601,
+      "path": "images/c3289e2856573bd42e70fd6a3a4d8de1.jpg",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "ea5be846b824aa3940e88b0dc1454adb.jpg",
+      "source": "resources/ea5be846b824aa3940e88b0dc1454adb",
+      "size": 217644,
+      "path": "images/ea5be846b824aa3940e88b0dc1454adb.jpg",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "ed3bcad295362e54029b0c42329c7c7a.jpg",
+      "source": "resources/ed3bcad295362e54029b0c42329c7c7a",
+      "size": 249791,
+      "path": "images/ed3bcad295362e54029b0c42329c7c7a.jpg",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "name": "3af51ba4d3f0c24b0bcbe4f1d4ce3b5c.jpg",
+      "source": "resources/3af51ba4d3f0c24b0bcbe4f1d4ce3b5c",
+      "size": 165520,
+      "path": "images/3af51ba4d3f0c24b0bcbe4f1d4ce3b5c.jpg",
+      "dimensions": [
+        956,
+        1107
+      ]
+    },
+    {
+      "name": "f7ec08efb652332e94d578e74f94f694.jpg",
+      "source": "resources/f7ec08efb652332e94d578e74f94f694",
+      "size": 163819,
+      "path": "images/f7ec08efb652332e94d578e74f94f694.jpg",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "name": "preview.png",
+      "source": "preview.png",
+      "size": 474415,
+      "path": "images/preview.png",
+      "dimensions": [
+        327,
+        2048
+      ]
+    },
+    {
+      "name": "image-327-2048.png",
+      "source": "renditions/image-327-2048.png",
+      "size": 474415,
+      "path": "images/image-327-2048.png",
+      "dimensions": [
+        327,
+        2048
+      ]
+    },
+    {
+      "name": "image-82-512.png",
+      "source": "renditions/image-82-512.png",
+      "size": 43695,
+      "path": "images/image-82-512.png",
+      "dimensions": [
+        82,
+        512
+      ]
+    },
+    {
+      "name": "thumbnail.png",
+      "source": "thumbnail.png",
+      "size": 43695,
+      "path": "images/thumbnail.png",
+      "dimensions": [
+        82,
+        512
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "他店"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "大幅減額"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "ジャンク扱い"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "相場がわからない"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "写真を送れば最短10分で！"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "LINE無料査定はこちら"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "申し込み完了まで1分！"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "フォーム査定はこちら"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "総合買取実績"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "※最新買取実績2026/2/26現在"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "30,000"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "点以上"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "店舗情報"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "デェイトジャスト 16233"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "他社買取価格： 1,080,000円"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "他社買取価格： 1,000,000円"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "ダンシャリ参考買取金額"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "1,100,000"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "円"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "エアキング14000"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "他社買取価格： 700,000円"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "他社買取価格： 680,000円"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "720,000"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "デイデイト 18038"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "他社買取価格： 2,850,000円"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "他社買取価格： 2,780,000円"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "2,900,000"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "デェイトジャスト 16234"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "他社買取価格： 1,100,000円"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "1,120,000"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "デェイトジャスト 69178"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "他社買取価格： 1,500,000円"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "他社買取価格： 1,480,000円"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "1,550,000"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "シードゥエラー 16600"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "他社買取価格： 1,200,000円"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "他社買取価格： 1,180,000円"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "1,280,000"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "エクスプローラーII 16570"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "他社買取価格： 1,2600,000円"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "他社買取価格： 1,240,000円"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "1,300,000"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "サブマリーナ 16610"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "GMTマスターII 16710"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "A社買取価格： 1,800,000円"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "B社買取価格： 1,750,000円"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "ダンシャリ買取金額"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "1,850,000"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "デェイトジャスト 79173"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "他社買取価格： 810,000円"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "他社買取価格： 790,000円"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "820,000"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "人気商品の買取相場"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "フランクミュラートノウカーベックスk18"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "FRANCK MULLER"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "1,400,000"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "カルティエタンクフランセーズ"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "CARTIER"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "400,000"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "オメガスピードマスター"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "OMEGA"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "550,000"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "オメガシーマスター300"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "320,000"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "ロレックスデイトジャストホリコン文字盤"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "ROLEX"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "エクスプローラーⅠ"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "920,000"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "●アクセス\n銀座線　京橋駅3番出口直結\n都営浅草線　宝町　A5出口　徒歩3分\n有楽町線　銀座1丁目駅　8番出口　徒歩5分　\nJR有楽町駅　京橋口　徒歩10分"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "●住所\n〒104-0031\n東京都中央区京橋3-1-1\n東京スクエアガーデン14F"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "高級腕時計買取専門店 ブランドシックス"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "「ここなら安心」と感じていただける、\n3つのこだわり"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "他店との違い"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "動かない時計や、ダメージの大きい時計、\nどんなに古い時計にも正しく誠実な査定を！！"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "常にお客様目線で"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "01"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "02"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "03"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "ご家族、小さなお子様が\nいらってしゃっても大丈夫です"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "徹底的な市場調査と\n豊富な売却ルート"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "査定だけでも安心してご相談いただける、居心地の良い買取店を目指しています"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "査定だけでも安心してご相談いただける、居心地の良い買取店を目指しています。"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "最新相場を常にデータ化し、さらに豊富な販売ルートから最も高い売却先を選定できるため、最高水準の買取価格を設定しています。"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "PAGE TOP"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "お客様の声"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "ある日、2本の古いロレックスが持ち込まれました。\n「両親の形見なんですが、箱や保証書もなく、止まっていて…」他店では「保証書、なくて動かないので厳しいです」「〇〇円」です。とかなり低い金額を言われたそうです。ですが当店で拝見するとそれは希少な年代のロレックスデイトジャストでした。文字盤の焼けも、針の経年劣化も、減額ではなく「個性」として評価できる価値ある個体でした。\nその旨と、査定額お伝えすると「ちゃんと見てもらえた気がします」と言っていただきました。\n※国内外にある多数の販路で最新の市場価値に基づく正確な査定をさせていただきます。"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "時計の査定へ東京にいきました。今回は気持ちもスッキリしたかったので、金額的なことよりも対応が少しでも悪ければ持ち帰ろうと考えいました。\nおかげさまで、気分も荷物もスッキリ軽くなり機嫌良く帰ることができました。大満足です。"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "昔買った、オメガ、カルティエ、ロレックスを査定していただきました。\nロレックスに関してはまだ上がり相場なのでまだ売らない方がいいですと、無理に売却を勧めることもなく、こちらの気持ちに寄り添ってくれる姿勢が印象的でした。\nオメガ、カルティエは買った時よりも高く査定、買い取りいただけて嬉しいかぎりです。\n口コミを見ても実際にお会いしても信頼できる鑑定士さんだと思います。"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "受付時間 11:00～19:00 (LINE 19:00以降は翌日順次対応)"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "まずはお友達登録から"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "全国どこからでも、ご相談いただけます。"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "キャンセル料はかかりません。\n写真を送るだけで、いまの価値が分かります。"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "査定"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "写真送信"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "写真撮って"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "CONTACT"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "無料WEB査定＆\nお問い合わせフォーム"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "確認する"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "プライバシーポリシーに同意"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "お問い合わせ内容詳細"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "入力して下さい"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "お問い合わせ種類"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "選択して下さい"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "モデル名"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "必須"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "入力してください"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "ブランド名"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "メールアドレス"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "エラーメッセージが入ります"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "error@mail.com"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "電話番号"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "ふりがな"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "お名前"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "お問合わせ完了後に弊社担当者より、ご連絡差し上げます。"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "当店"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "動かない"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "古い"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "パーツ欠品"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "不動でも市場評価"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "年代別相場データ保有"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "パーツを仕入れるルート確保"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "高額買取ぞくぞく成立中"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "お客様目線ファースト。"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "誠実、わかりやくをモットーに。"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "店長紹介"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "はじめまして！鑑定士の柏木です。\nお客様に緊張せずお話しいただけるよう、\nやわらかく丁寧な接客を心がけています。\n“ここに相談してよかった”と思っていただける時間を大切にしています。"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "査定\n無料"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "BRANDSiXは古物営業法に基づく古物商の許可を得ております\n古物商許可証: 第301062008871 / 東京都公安委員会"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "©2026 BRANDSiX"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "23区外からお越しのお客様の方で\n東京駅ご利用の場合、\n八重洲口からタクシー代お支払いいたします。\nレシートをお持ちいただければ幸いです。\n※査定のみでも喜んで。"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "お支払いいたします！"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "ご来店時のタクシー代"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "高級腕時計買取専門店"
+    },
+    {
+      "source": "artwork/artboard-7a7d4474-9248-4d84-b4d0-05bb7ce9eeaf/graphics/graphicContent.agc",
+      "text": "ブランドシックス"
+    },
+    {
+      "source": "artwork/artboard-827bbae7-5b98-4964-b99d-51f20b318f5f/graphics/graphicContent.agc",
+      "text": "あなたの大切な時計を\n思い出ごと正しく評価させていただきます。"
+    },
+    {
+      "source": "artwork/artboard-827bbae7-5b98-4964-b99d-51f20b318f5f/graphics/graphicContent.agc",
+      "text": "※大変申し訳ございません"
+    },
+    {
+      "source": "artwork/artboard-827bbae7-5b98-4964-b99d-51f20b318f5f/graphics/graphicContent.agc",
+      "text": "現在ホームページ\nリニューアル改装中です。"
+    },
+    {
+      "source": "artwork/artboard-827bbae7-5b98-4964-b99d-51f20b318f5f/graphics/graphicContent.agc",
+      "text": "●住所\n104-0031\n東京都中央区京橋3-1-1\n東京スクエアガーデン14F"
+    },
+    {
+      "source": "artwork/artboard-827bbae7-5b98-4964-b99d-51f20b318f5f/graphics/graphicContent.agc",
+      "text": "Google Map"
+    },
+    {
+      "source": "artwork/artboard-827bbae7-5b98-4964-b99d-51f20b318f5f/graphics/graphicContent.agc",
+      "text": "店舗への電話はこちらから"
+    },
+    {
+      "source": "artwork/artboard-827bbae7-5b98-4964-b99d-51f20b318f5f/graphics/graphicContent.agc",
+      "text": "03-4500-0239"
+    },
+    {
+      "source": "artwork/artboard-a5d49308-58f3-450b-bb9a-c20879faaec8/graphics/graphicContent.agc",
+      "text": "キャンセル料はかかりません。\n写真を送るだけで、\nいまの価値が分かります。"
+    },
+    {
+      "source": "artwork/artboard-a5d49308-58f3-450b-bb9a-c20879faaec8/graphics/graphicContent.agc",
+      "text": "パーツを仕入れる\nルート確保"
+    },
+    {
+      "source": "artwork/artboard-a5d49308-58f3-450b-bb9a-c20879faaec8/graphics/graphicContent.agc",
+      "text": "「ここなら安心」と感じて\nいただける、3つのこだわり"
+    },
+    {
+      "source": "artwork/artboard-a5d49308-58f3-450b-bb9a-c20879faaec8/graphics/graphicContent.agc",
+      "text": "はじめまして！鑑定士の柏木です。\nお客様に緊張せずお話しいただけるよう、やわらかく丁寧な接客を心がけています。\n“ここに相談してよかった”と思っていただける時間を大切にしています。"
+    },
+    {
+      "source": "artwork/artboard-a5d49308-58f3-450b-bb9a-c20879faaec8/graphics/graphicContent.agc",
+      "text": "古物商許可証: 第301062008871 / 東京都公安委員会"
+    },
+    {
+      "source": "artwork/artboard-a5d49308-58f3-450b-bb9a-c20879faaec8/graphics/graphicContent.agc",
+      "text": "BRANDSiXは古物営業法に基づく\n古物商の許可を得ております"
+    },
+    {
+      "source": "artwork/pasteboard/graphics/graphicContent.agc",
+      "text": "ロレックス"
+    },
+    {
+      "source": "artwork/pasteboard/graphics/graphicContent.agc",
+      "text": "オメガ"
+    },
+    {
+      "source": "artwork/pasteboard/graphics/graphicContent.agc",
+      "text": "オーデマピゲ"
+    },
+    {
+      "source": "artwork/pasteboard/graphics/graphicContent.agc",
+      "text": "買取実績"
+    },
+    {
+      "source": "artwork/pasteboard/graphics/graphicContent.agc",
+      "text": "以上"
+    },
+    {
+      "source": "artwork/pasteboard/graphics/graphicContent.agc",
+      "text": "点"
+    },
+    {
+      "source": "artwork/pasteboard/graphics/graphicContent.agc",
+      "text": "宅配買取\n着払いOK"
+    },
+    {
+      "source": "artwork/pasteboard/graphics/graphicContent.agc",
+      "text": "即日現金"
+    },
+    {
+      "source": "artwork/pasteboard/graphics/graphicContent.agc",
+      "text": "払い"
+    },
+    {
+      "source": "artwork/pasteboard/graphics/graphicContent.agc",
+      "text": "他社に負けない"
+    },
+    {
+      "source": "artwork/pasteboard/graphics/graphicContent.agc",
+      "text": "驚きの"
+    },
+    {
+      "source": "artwork/pasteboard/graphics/graphicContent.agc",
+      "text": "高価買取"
+    },
+    {
+      "source": "artwork/pasteboard/graphics/graphicContent.agc",
+      "text": "あなたの大切な時計を思い出ごと正しく評価させていただきます。"
+    },
+    {
+      "source": "artwork/pasteboard/graphics/graphicContent.agc",
+      "text": "お客様目線ファースト\n誠実、わかりやくをモットーに。"
+    },
+    {
+      "source": "artwork/pasteboard/graphics/graphicContent.agc",
+      "text": "あなたの大切な時計を思い出ごと\n正しく評価させていただきます。"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "JA"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "EN"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "All"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "DOCTORS TALK"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "20"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "4"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "PRODUCT"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "2"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "EVENT"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "12"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "LIFE STYLE"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "8"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "TALK & INTERVIEW"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "記事一覧"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "Shopping online"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "Order Status\nShipping and Delivery\nReturns\nPayment Options\nContact Us"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "Information"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "Gift Cards\nFind a store\nNewsletter\nBacome a member\nSite feedback"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "Contact"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "store@uikit.com\nHotline: +1 131 138 138"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "House My Brand designs clothing for the young, the old &\neveryone in between – but most importantly, for the fashionable"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "DESIGN BY ICEO.CO - © 2019. ALL RIGHTS RESERVED."
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "E-Shop"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "Enter your email"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "Subscribe"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "Subscribe to our newsletter and\nreceive exclusive offers every week"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "Primary"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "選択済み"
+    },
+    {
+      "source": "resources/graphics/graphicContent.agc",
+      "text": "選択肢"
+    }
+  ]
+}

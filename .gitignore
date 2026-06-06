@@ -1,0 +1,13 @@
+.DS_Store
+
+# Generated / derived outputs
+image2_generated/
+image2_segments/
+site_audit/
+site/backups/
+site/styles.css.before-*
+
+# Local scratch / transient files
+*.log
+*.tmp
+*.swp
