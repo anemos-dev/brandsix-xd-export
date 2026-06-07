@@ -282,16 +282,8 @@ a {
   background: linear-gradient(#79bd39, #2f7b1f);
 }
 
-.cta-line::before {
-  content: "●";
-}
-
 .cta-form {
   background: linear-gradient(var(--navy-mid), var(--blue-dark));
-}
-
-.cta-form::before {
-  content: "□";
 }
 
 .cta small,
