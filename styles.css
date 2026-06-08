@@ -2132,6 +2132,7 @@ address {
     max-width: 340px;
     text-align: center;
     overflow-wrap: anywhere;
+    transform: translateX(8px);
   }
 
   .footer-logo strong {
