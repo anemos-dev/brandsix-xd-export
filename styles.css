@@ -110,7 +110,7 @@ a {
   background-color: var(--paper);
   background-image:
     linear-gradient(rgba(251, 249, 244, 0.7), rgba(251, 249, 244, 0.7)),
-    url("../images/049c77f423e08a216776ca12e6f7ad4e.jpg");
+    url("images/049c77f423e08a216776ca12e6f7ad4e.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -629,7 +629,7 @@ a {
   padding: 98.6px 15.3px 95.2px;
   background:
     linear-gradient(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.22)),
-    #111 url("../images/3e08b0cbfc822a1e1a0ffccf5f95e076.jpg") center / cover;
+    #111 url("images/3e08b0cbfc822a1e1a0ffccf5f95e076.jpg") center / cover;
   color: #fff;
 }
 
@@ -696,7 +696,7 @@ a {
   padding: 100.3px 15.3px 108.8px;
   background:
     linear-gradient(rgba(6, 40, 66, 0.78), rgba(6, 40, 66, 0.82)),
-    url("../images/2c9b44454dbc535885b13a4a66a7f8ec.png") center / cover;
+    url("images/2c9b44454dbc535885b13a4a66a7f8ec.png") center / cover;
 }
 
 .access-card {
@@ -941,7 +941,7 @@ a {
   padding: 64.6px 15.3px 71.4px;
   background:
     linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)),
-    #111 url("../images/3e08b0cbfc822a1e1a0ffccf5f95e076.jpg") center / cover;
+    #111 url("images/3e08b0cbfc822a1e1a0ffccf5f95e076.jpg") center / cover;
 }
 
 .marble-cta .cta-pair {
@@ -1492,7 +1492,7 @@ address {
   overflow-x: hidden;
   background:
     linear-gradient(rgba(3, 24, 39, 0.78), rgba(3, 24, 39, 0.78)),
-    url("../images/3e08b0cbfc822a1e1a0ffccf5f95e076.jpg") center / cover fixed;
+    url("images/3e08b0cbfc822a1e1a0ffccf5f95e076.jpg") center / cover fixed;
 }
 
 .thanks-page,
