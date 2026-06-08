@@ -182,29 +182,7 @@ a {
 .copy-ribbon {
   position: relative;
   margin-top: 23.8px;
-  padding-left: 107.1px;
-}
-
-.copy-ribbon > span {
-  position: absolute;
-  left: -33.4px;
-  top: 85%;
-  display: grid;
-  place-items: center;
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  transform: translateY(-50%);
-  background: radial-gradient(circle at 45% 36%, #b60008, #8e0006 72%);
-  color: #fff;
-  border: 2.6px solid rgba(255, 255, 255, 0.88);
-  font: 800 25.5px/1.08 var(--serif);
-  z-index: 2;
-  text-align: center;
-  text-shadow: 0 1.7px 0 rgba(0, 0, 0, 0.18);
-  box-shadow:
-    0 0 0 1.7px rgba(90, 90, 90, 0.55),
-    0 7.7px 15.3px rgba(0, 0, 0, 0.26);
+  padding-left: 0;
 }
 
 .copy-ribbon div {
@@ -216,7 +194,7 @@ a {
   display: block;
   width: fit-content;
   min-width: 42px;
-  padding: 5px 24px 6.5px 34.5px;
+  padding: 5px 24px 6.5px;
   border: 1.7px solid rgba(232, 223, 198, 0.82);
   background:
     linear-gradient(90deg, rgba(4, 21, 32, 0.98), rgba(4, 31, 49, 0.96)),
@@ -224,7 +202,7 @@ a {
   color: #fff;
   font: 800 clamp(8px, 1.1vw, 15px)/1.22 var(--serif);
   letter-spacing: 0.04em;
-  transform: translate(-75px, 27px);
+  transform: none;
   text-shadow:
     0 1.7px 0 rgba(0, 0, 0, 0.55),
     0 0 6.8px rgba(255, 255, 255, 0.12);
@@ -333,6 +311,41 @@ a {
   background:
     linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.08) 32%, rgba(52, 50, 38, 0.62) 56%, rgba(52, 50, 38, 0.96) 100%),
     linear-gradient(90deg, transparent 0%, transparent 48%, rgba(52, 50, 38, 0.58) 68%, rgba(52, 50, 38, 0.92) 100%);
+}
+
+.taxi-message {
+  position: absolute;
+  left: 29.9px;
+  top: 28.9px;
+  z-index: 2;
+  width: min(640px, calc(100% - 560px));
+  max-width: 640px;
+  padding: 22.1px 25.5px 22.1px 31.4px;
+  color: #fff;
+  background: linear-gradient(90deg, rgba(3, 24, 39, 0.84), rgba(3, 24, 39, 0.48));
+  border-left: 4.3px solid var(--gold-light);
+  box-shadow: 0 11.9px 34px rgba(0, 0, 0, 0.2);
+}
+
+.taxi-message-kicker {
+  margin: 0 0 10.2px;
+  color: var(--gold-light);
+  font-size: 12.8px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+}
+
+.taxi-message h2 {
+  margin: 0;
+  font-size: 27.2px;
+  line-height: 1.42;
+  letter-spacing: 0.03em;
+}
+
+.taxi-message p:last-child {
+  margin: 15.3px 0 0;
+  font-size: 16px;
+  line-height: 1.8;
 }
 
 .taxi-panel {
@@ -755,6 +768,16 @@ a {
   height: 221px;
   object-fit: cover;
   border: 1px solid var(--line);
+}
+
+.map-image-link {
+  display: block;
+  width: min(442px, 100%);
+}
+
+.map-image-link .map-image {
+  display: block;
+  width: 100%;
 }
 
 .map-link {
@@ -1498,6 +1521,12 @@ address {
   overflow-wrap: anywhere;
 }
 
+.thanks-card p a {
+  color: var(--navy);
+  font-weight: 800;
+  text-decoration: none;
+}
+
 .sub-label {
   margin: 0 0 8.5px;
   color: var(--gold);
@@ -1679,21 +1708,12 @@ address {
     padding-right: 5.1px;
   }
 
-  .copy-ribbon > span {
-    left: 0;
-    top: 50%;
-    width: 59.5px;
-    height: 59.5px;
-    border-width: 1.7px;
-    font-size: 15.2px;
-  }
-
   .copy-ribbon strong {
-    transform: translateX(-8px);
+    transform: none;
     min-width: 0;
     width: fit-content;
-    max-width: calc(100vw - 88px);
-    padding: 4.3px 10.2px 5.1px 20.4px;
+    max-width: calc(100vw - 32px);
+    padding: 4.3px 10.2px 5.1px;
     border-width: 1px;
     font-size: clamp(10px, 3.1vw, 12.4px);
     line-height: 1.24;
@@ -1741,6 +1761,29 @@ address {
   .taxi-section {
     min-height: 300px;
     align-items: end;
+  }
+
+  .taxi-message {
+    left: 13.6px;
+    top: 15.3px;
+    width: min(100%, calc(100% - 27.2px));
+    padding: 12.8px 14px 12.8px 15.3px;
+  }
+
+  .taxi-message-kicker {
+    margin-bottom: 7.7px;
+    font-size: 10.2px;
+  }
+
+  .taxi-message h2 {
+    font-size: 15.3px;
+    line-height: 1.5;
+  }
+
+  .taxi-message p:last-child {
+    margin-top: 7.7px;
+    font-size: 10.2px;
+    line-height: 1.7;
   }
 
   .taxi-section > img {
@@ -1877,6 +1920,10 @@ address {
     gap: 18px;
     text-align: center;
     justify-items: center;
+  }
+
+  .map-image-link {
+    width: 100%;
   }
 
   .access-cta-copy h3 {
