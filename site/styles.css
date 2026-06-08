@@ -2132,7 +2132,7 @@ address {
     max-width: 340px;
     text-align: center;
     overflow-wrap: anywhere;
-    transform: translateX(55px);
+    transform: translateX(40px);
   }
 
   .footer-logo strong {
