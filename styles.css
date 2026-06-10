@@ -281,41 +281,89 @@ a {
 }
 
 .mission-section {
-  padding: 58px 24px 54px;
+  position: relative;
+  overflow: hidden;
+  padding: 55px 24px 50px;
   color: #fff;
   background:
-    linear-gradient(135deg, rgba(3, 24, 39, 0.94), rgba(7, 45, 70, 0.9)),
-    url("images/3e08b0cbfc822a1e1a0ffccf5f95e076.jpg") center / cover;
+    radial-gradient(circle at 82% 48%, rgba(35, 74, 95, 0.48), transparent 31%),
+    linear-gradient(90deg, #061a2c 0%, #082842 54%, #061a2c 100%);
+}
+
+.mission-section::before,
+.mission-section::after {
+  content: "";
+  position: absolute;
+  left: 4.8vw;
+  right: 4.8vw;
+  z-index: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(211, 183, 92, 0.92) 12%, rgba(211, 183, 92, 0.98) 88%, transparent);
+}
+
+.mission-section::before {
+  top: 16px;
+}
+
+.mission-section::after {
+  bottom: 16px;
+}
+
+.mission-section .mission-message::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: max(-56px, -2.8vw);
+  width: min(255px, 22vw);
+  aspect-ratio: 1;
+  transform: translateY(-50%);
+  opacity: 0.2;
+  background: url("images/b4483fbd33320bf750e5a5c474a8ec3f.jpg") center / cover no-repeat;
+  border-radius: 50%;
+  mix-blend-mode: screen;
 }
 
 .mission-message {
-  width: min(920px, 100%);
+  position: relative;
+  z-index: 2;
+  width: min(980px, 100%);
   margin: 0 auto;
-  padding: 34px 42px;
-  background: rgba(3, 24, 39, 0.62);
-  border-left: 4.3px solid var(--gold-light);
-  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.22);
+  padding: 0 160px;
+  text-align: center;
 }
 
 .mission-message-kicker {
-  margin: 0 0 10.2px;
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  margin: 0 0 13px;
   color: var(--gold-light);
   font-size: 12.8px;
   font-weight: 800;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.1em;
+}
+
+.mission-message-kicker::before,
+.mission-message-kicker::after {
+  content: "";
+  width: 56px;
+  height: 1px;
+  background: var(--gold);
 }
 
 .mission-message h2 {
   margin: 0;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 1.42;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.04em;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.35);
 }
 
 .mission-message p:last-child {
-  margin: 15.3px 0 0;
-  font-size: 16px;
+  margin: 17px 0 0;
+  font-size: 14px;
   line-height: 1.8;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
 }
 
 .taxi-section {
@@ -1737,25 +1785,45 @@ address {
   }
 
   .mission-section {
-    padding: 34px 16px 32px;
+    padding: 36px 16px 34px;
+  }
+
+  .mission-section::before {
+    top: 10px;
+  }
+
+  .mission-section::after {
+    bottom: 10px;
   }
 
   .mission-message {
-    padding: 20px 18px 20px 20px;
+    padding: 0 18px;
+  }
+
+  .mission-section .mission-message::after {
+    right: -56px;
+    width: 148px;
+    opacity: 0.13;
   }
 
   .mission-message-kicker {
+    gap: 10px;
     margin-bottom: 7.7px;
     font-size: 10.2px;
   }
 
+  .mission-message-kicker::before,
+  .mission-message-kicker::after {
+    width: 34px;
+  }
+
   .mission-message h2 {
-    font-size: 15.3px;
+    font-size: 15.8px;
     line-height: 1.5;
   }
 
   .mission-message p:last-child {
-    margin-top: 7.7px;
+    margin-top: 9px;
     font-size: 10.2px;
     line-height: 1.7;
   }
