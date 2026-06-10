@@ -313,14 +313,13 @@ a {
   content: "";
   position: absolute;
   top: 50%;
-  right: max(-56px, -2.8vw);
-  width: min(255px, 22vw);
-  aspect-ratio: 1;
+  right: max(-94px, -6vw);
+  width: min(300px, 24vw);
+  height: min(430px, 34vw);
   transform: translateY(-50%);
-  opacity: 0.2;
-  background: url("images/b4483fbd33320bf750e5a5c474a8ec3f.jpg") center / cover no-repeat;
-  border-radius: 50%;
-  mix-blend-mode: screen;
+  opacity: 0.16;
+  background: url("images/mission-watch-cutout.png") center / contain no-repeat;
+  filter: saturate(0.85) brightness(1.08);
 }
 
 .mission-message {
@@ -1801,9 +1800,10 @@ address {
   }
 
   .mission-section .mission-message::after {
-    right: -56px;
-    width: 148px;
-    opacity: 0.13;
+    right: -72px;
+    width: 142px;
+    height: 206px;
+    opacity: 0.12;
   }
 
   .mission-message-kicker {
