@@ -397,6 +397,10 @@ a {
   text-shadow: 0 1px 12px rgba(0, 0, 0, 0.28);
 }
 
+.mission-title-mobile {
+  display: none;
+}
+
 .mission-message p:last-child {
   position: relative;
   max-width: 640px;
@@ -1564,6 +1568,12 @@ address {
   line-height: 1.9;
 }
 
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .mission-section .mission-message::after {
+    right: -330px;
+  }
+}
+
 .footer > small {
   display: block;
   width: min(935px, 100%);
@@ -1713,6 +1723,31 @@ address {
     font-size: 21.6px;
   }
 
+  .mission-message {
+    width: 100%;
+    padding: 56px 46% 52px 44px;
+  }
+
+  .mission-section .mission-message::after {
+    right: -18px;
+    width: 286px;
+    height: 676px;
+    opacity: 0.92;
+  }
+
+  .mission-title-desktop {
+    display: none;
+  }
+
+  .mission-title-mobile {
+    display: block;
+  }
+
+  .mission-message h2 {
+    font-size: clamp(22px, 3.4vw, 30px);
+    line-height: 1.6;
+  }
+
   .results-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 17px 13.6px;
@@ -1752,6 +1787,7 @@ address {
   }
 
   .access-cta-card img {
+    justify-self: center;
     width: min(260px, 74%);
     height: 275px;
     transform: none;
@@ -1916,7 +1952,8 @@ address {
   .mission-section::before {
     inset: 0 0 0 auto;
     width: 46%;
-    opacity: 0.78;
+    opacity: 1;
+    background: #fbf8ee;
     clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
   }
 
@@ -1933,9 +1970,9 @@ address {
   }
 
   .mission-section .mission-message::after {
-    right: -112px;
-    width: 158px;
-    height: 375px;
+    right: -12px;
+    width: 210px;
+    height: 510px;
     opacity: 0.9;
   }
 
@@ -1950,8 +1987,16 @@ address {
     width: 70px;
   }
 
+  .mission-title-desktop {
+    display: none;
+  }
+
+  .mission-title-mobile {
+    display: block;
+  }
+
   .mission-message h2 {
-    font-size: clamp(18px, 5.8vw, 26px);
+    font-size: clamp(17px, 5vw, 22px);
     line-height: 1.65;
   }
 
