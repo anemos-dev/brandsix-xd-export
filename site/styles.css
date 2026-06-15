@@ -283,86 +283,148 @@ a {
 .mission-section {
   position: relative;
   overflow: hidden;
-  padding: 55px 24px 50px;
+  min-height: clamp(380px, 38.9vw, 540px);
+  padding: 0;
   color: #fff;
   background:
-    radial-gradient(circle at 82% 48%, rgba(35, 74, 95, 0.48), transparent 31%),
-    linear-gradient(90deg, #061a2c 0%, #082842 54%, #061a2c 100%);
+    radial-gradient(circle at 21% 50%, rgba(19, 63, 88, 0.36), transparent 32%),
+    linear-gradient(90deg, rgba(3, 24, 39, 0.98), rgba(5, 36, 58, 0.97)),
+    url("../images/3e08b0cbfc822a1e1a0ffccf5f95e076.jpg") center / cover;
 }
 
 .mission-section::before,
 .mission-section::after {
   content: "";
   position: absolute;
-  left: 4.8vw;
-  right: 4.8vw;
-  z-index: 1;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(211, 183, 92, 0.92) 12%, rgba(211, 183, 92, 0.98) 88%, transparent);
 }
 
 .mission-section::before {
-  top: 16px;
+  inset: 0 0 0 auto;
+  width: 39%;
+  z-index: 1;
+  background:
+    linear-gradient(rgba(248, 244, 235, 0.92), rgba(248, 244, 235, 0.92)),
+    url("../images/049c77f423e08a216776ca12e6f7ad4e.jpg") center / cover;
+  clip-path: polygon(16% 0, 100% 0, 100% 100%, 0 100%);
 }
 
 .mission-section::after {
-  bottom: 16px;
+  top: -5%;
+  bottom: -5%;
+  left: 63.7%;
+  z-index: 2;
+  width: 12px;
+  background: linear-gradient(180deg, #d8bd63, #a98f37);
+  transform: skewX(-10deg);
+  box-shadow: 0 0 0 1px rgba(81, 65, 22, 0.18);
 }
 
 .mission-section .mission-message::after {
   content: "";
   position: absolute;
-  top: 50%;
-  right: max(-94px, -6vw);
-  width: min(300px, 24vw);
-  height: min(430px, 34vw);
+  top: 58%;
+  right: clamp(-450px, calc(-34vw - 30px), -410px);
+  z-index: 1;
+  width: clamp(294px, 25.2vw, 441px);
+  height: clamp(1000px, 30.6vw, 872px);
   transform: translateY(-50%);
-  opacity: 0.16;
-  background: url("../images/mission-watch-cutout.png") center / contain no-repeat;
-  filter: saturate(0.85) brightness(1.08);
+  opacity: 1;
+  pointer-events: none;
+  background: url("../images/mission-watch-gold-cutout.png") center / contain no-repeat;
+  filter: drop-shadow(0 18px 28px rgba(0, 0, 0, 0.18));
 }
 
 .mission-message {
   position: relative;
+  z-index: 4;
+  width: min(1080px, 66%);
+  margin: 0;
+  padding: clamp(52px, 5.7vw, 96px) 0 clamp(46px, 4.8vw, 78px) clamp(86px, 8vw, 166px);
+  text-align: left;
+}
+
+.mission-message > * {
+  position: relative;
   z-index: 2;
-  width: min(980px, 100%);
-  margin: 0 auto;
-  padding: 0 160px;
-  text-align: center;
 }
 
 .mission-message-kicker {
   display: inline-flex;
+  position: relative;
   align-items: center;
-  gap: 16px;
-  margin: 0 0 13px;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0 0 22px;
   color: var(--gold-light);
-  font-size: 12.8px;
+  font-size: clamp(19px, 1.55vw, 28px);
   font-weight: 800;
-  letter-spacing: 0.1em;
+  line-height: 1.1;
+  letter-spacing: 0.06em;
 }
 
 .mission-message-kicker::before,
 .mission-message-kicker::after {
   content: "";
-  width: 56px;
+  width: 122px;
   height: 1px;
-  background: var(--gold);
+  background: linear-gradient(90deg, var(--gold), var(--gold-light), var(--gold));
+}
+
+.mission-message-kicker::after {
+  position: relative;
+  height: 12px;
+  background: linear-gradient(90deg, var(--gold), var(--gold-light), var(--gold)) center / 100% 1px no-repeat;
+}
+
+.mission-message-kicker::before {
+  position: absolute;
+  left: 50%;
+  bottom: 1px;
+  z-index: 1;
+  width: 10px;
+  height: 10px;
+  background: var(--gold-light);
+  transform: translateX(-50%) rotate(45deg);
 }
 
 .mission-message h2 {
   margin: 0;
-  font-size: 25px;
-  line-height: 1.42;
-  letter-spacing: 0.04em;
-  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.35);
+  font-size: clamp(28px, 2.62vw, 46px);
+  line-height: 1.76;
+  font-weight: 700;
+  letter-spacing: 0.055em;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.28);
 }
 
 .mission-message p:last-child {
-  margin: 17px 0 0;
-  font-size: 14px;
-  line-height: 1.8;
+  position: relative;
+  max-width: 640px;
+  margin: 30px 0 0;
+  font-size: clamp(15px, 1.26vw, 22px);
+  line-height: 1.9;
+  letter-spacing: 0.045em;
   text-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.mission-message p:last-child::after {
+  content: "";
+  display: block;
+  width: min(540px, 100%);
+  height: 12px;
+  margin-top: 42px;
+  background: linear-gradient(90deg, var(--gold), var(--gold-light), var(--gold)) center / 100% 1px no-repeat;
+}
+
+.mission-message p:last-child::before {
+  content: "";
+  position: absolute;
+  left: min(270px, 50%);
+  bottom: 1px;
+  z-index: 1;
+  width: 10px;
+  height: 10px;
+  background: var(--gold-light);
+  transform: translateX(-50%) rotate(45deg);
 }
 
 .taxi-section {
@@ -831,14 +893,14 @@ a {
 }
 
 .access-cta-card {
-  width: min(838px, calc(100% - 56px));
+  width: min(1120px, calc(100% - 56px));
   min-height: 250px;
   margin: 28px auto 0;
   display: grid;
-  grid-template-columns: minmax(360px, 1fr) 240px 340px;
-  gap: 24px;
+  grid-template-columns: minmax(300px, 1fr) minmax(190px, 240px) minmax(240px, 300px);
+  gap: clamp(16px, 2vw, 24px);
   align-items: center;
-  padding: 10px 34px 10px 40px;
+  padding: 18px clamp(24px, 3vw, 40px);
   background: #fbf8ee;
   box-shadow: 0 15.3px 37.4px rgba(0, 0, 0, 0.28);
 }
@@ -880,11 +942,11 @@ a {
 .access-cta-card img {
   align-self: end;
   justify-self: center;
-  width: 260px;
-  height: 180px;
+  width: min(240px, 100%);
+  height: 230px;
   object-fit: cover;
   object-position: center top;
-  transform: translate(-160px, -77px) scale(1.5);
+  transform: translateY(-32px) scale(1.18);
   transform-origin: center top;
 }
 
@@ -896,7 +958,7 @@ a {
   width: 300px;
   height: 90px;
   margin-bottom: 0;
-  transform: translate(-170px, -10px);
+  transform: none;
   padding: 30px 58px 28px 40px;
   background: var(--gold-dark);
   color: #fff;
@@ -1668,23 +1730,64 @@ address {
   }
 
   .access-cta-card {
-    padding-bottom: 30.6px;
+    width: min(94%, 640px);
+    justify-items: center;
+    padding: 30px 28px 34px;
+    text-align: center;
   }
 
   .access-line-box {
+    width: min(100%, 300px);
+    height: auto;
     margin-bottom: 0;
   }
 
-  .access-cta-card img,
+  .access-cta-card img {
+    width: min(260px, 74%);
+    height: 275px;
+    transform: none;
+  }
+
   .staff-note-media,
   .manager-photo {
     justify-self: center;
   }
 
+  .staff-note {
+    justify-items: center;
+  }
+
+  .staff-note p {
+    width: fit-content;
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .manager-card {
+    width: min(94%, 760px);
+    justify-items: center;
+  }
+
+  .manager-photo {
+    transform: none;
+    width: clamp(210px, 34vw, 280px);
+    height: clamp(210px, 34vw, 280px);
+  }
+
   .manager-card div {
+    width: 100%;
+    max-width: 760px;
+    margin-top: -26px;
     margin-left: 0;
+    justify-items: center;
     border-radius: 35.7px;
-    padding: 28.9px;
+    padding: 56px clamp(32px, 6vw, 72px) 36px;
+  }
+
+  .manager-card p {
+    width: fit-content;
+    max-width: 100%;
+    text-align: left;
   }
 }
 
@@ -1797,48 +1900,65 @@ address {
   }
 
   .mission-section {
-    padding: 36px 16px 34px;
+    min-height: 305px;
+    padding: 0;
   }
 
   .mission-section::before {
-    top: 10px;
+    inset: 0 0 0 auto;
+    width: 46%;
+    opacity: 0.78;
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
   }
 
   .mission-section::after {
-    bottom: 10px;
+    top: -5%;
+    bottom: -5%;
+    left: 59.5%;
+    width: 7px;
   }
 
   .mission-message {
-    padding: 0 18px;
+    width: 100%;
+    padding: 42px 36% 38px 22px;
   }
 
   .mission-section .mission-message::after {
-    right: -72px;
-    width: 142px;
-    height: 206px;
-    opacity: 0.12;
+    right: -112px;
+    width: 158px;
+    height: 375px;
+    opacity: 0.9;
   }
 
   .mission-message-kicker {
-    gap: 10px;
-    margin-bottom: 7.7px;
-    font-size: 10.2px;
+    align-items: flex-start;
+    gap: 6px;
+    margin-bottom: 12px;
+    font-size: 15px;
   }
 
-  .mission-message-kicker::before,
   .mission-message-kicker::after {
-    width: 34px;
+    width: 70px;
   }
 
   .mission-message h2 {
-    font-size: 15.8px;
-    line-height: 1.5;
+    font-size: clamp(18px, 5.8vw, 26px);
+    line-height: 1.65;
   }
 
   .mission-message p:last-child {
-    margin-top: 9px;
-    font-size: 10.2px;
-    line-height: 1.7;
+    margin-top: 16px;
+    font-size: 11.5px;
+    line-height: 1.85;
+  }
+
+  .mission-message p:last-child::after {
+    width: 180px;
+    margin-top: 20px;
+  }
+
+  .mission-message p:last-child::before {
+    left: 90px;
   }
 
   .taxi-section {
@@ -2081,6 +2201,7 @@ address {
     grid-template-columns: 128px 1fr;
     gap: 12px;
     align-items: center;
+    justify-items: stretch;
     text-align: left;
   }
 
@@ -2097,6 +2218,7 @@ address {
   }
 
   .staff-note p {
+    width: auto;
     padding-bottom: 8.5px;
     font-size: 10.8px;
     line-height: 1.75;
