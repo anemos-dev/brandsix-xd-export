@@ -323,10 +323,10 @@ a {
   content: "";
   position: absolute;
   top: 58%;
-  right: clamp(-450px, calc(-34vw - 30px), -410px);
+  right: clamp(-570px, calc(-12.6vw - 350px), -500px);
   z-index: 1;
   width: clamp(294px, 25.2vw, 441px);
-  height: clamp(1000px, 30.6vw, 872px);
+  height: clamp(620px, 49vw, 872px);
   transform: translateY(-50%);
   opacity: 1;
   pointer-events: none;
@@ -337,7 +337,7 @@ a {
 .mission-message {
   position: relative;
   z-index: 4;
-  width: min(1080px, 66%);
+  width: 63.7%;
   margin: 0;
   padding: clamp(52px, 5.7vw, 96px) 0 clamp(46px, 4.8vw, 78px) clamp(86px, 8vw, 166px);
   text-align: left;
@@ -388,6 +388,7 @@ a {
 }
 
 .mission-message h2 {
+  max-width: 760px;
   margin: 0;
   font-size: clamp(28px, 2.62vw, 46px);
   line-height: 1.76;
@@ -893,14 +894,14 @@ a {
 }
 
 .access-cta-card {
-  width: min(1120px, calc(100% - 56px));
+  width: min(838.1px, calc(100% - 56px));
   min-height: 250px;
   margin: 28px auto 0;
   display: grid;
-  grid-template-columns: minmax(300px, 1fr) minmax(190px, 240px) minmax(240px, 300px);
-  gap: clamp(16px, 2vw, 24px);
+  grid-template-columns: minmax(300px, 1fr) minmax(130px, 180px) 300px;
+  gap: clamp(12px, 1.6vw, 18px);
   align-items: center;
-  padding: 18px clamp(24px, 3vw, 40px);
+  padding: 18px clamp(24px, 3vw, 32px);
   background: #fbf8ee;
   box-shadow: 0 15.3px 37.4px rgba(0, 0, 0, 0.28);
 }
@@ -909,6 +910,7 @@ a {
   margin: 0 0 12px;
   font-size: clamp(22px, 4.2vw, 34px);
   line-height: 1.12;
+  white-space: nowrap;
 }
 
 .access-cta-copy h3 .emphasis {
@@ -926,6 +928,7 @@ a {
   max-width: 420px;
   font-size: 13px;
   line-height: 1.7;
+  white-space: nowrap;
 }
 
 .access-cta-copy a {
@@ -941,12 +944,13 @@ a {
 
 .access-cta-card img {
   align-self: end;
-  justify-self: center;
-  width: min(240px, 100%);
+  justify-self: start;
+  width: 240px;
+  max-width: none;
   height: 230px;
   object-fit: cover;
   object-position: center top;
-  transform: translateY(-32px) scale(1.18);
+  transform: translate(-90px, -32px) scale(1.18);
   transform-origin: center top;
 }
 
@@ -1734,6 +1738,11 @@ address {
     justify-items: center;
     padding: 30px 28px 34px;
     text-align: center;
+  }
+
+  .access-cta-copy h3,
+  .access-cta-copy p {
+    white-space: normal;
   }
 
   .access-line-box {
