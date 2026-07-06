@@ -2338,59 +2338,74 @@ address {
     font-size: 18px;
   }
 
-  .cta-pair {
-    width: min(380px, 100%);
+  .cta-pair,
+  .market-ctas {
+    width: calc(100% - 8px);
     grid-template-columns: 1fr;
-    gap: 48px;
-    margin-top: 68px;
+    gap: 24px;
+    margin-top: 42px;
   }
 
-  .cta {
-    min-height: 105px;
+  .cta,
+  .market-ctas .cta {
+    min-height: 74px;
     overflow: hidden;
-    padding: 23px 55px 23px 108px;
-    border-width: 6px;
-    outline-width: 3px;
-    outline-offset: -12px;
+    padding: 13px 42px 14px 76px;
+    border-width: 4px;
+    outline-width: 2px;
+    outline-offset: -8px;
     box-shadow: 0 8px 0 rgba(0, 0, 0, 0.28), 0 15px 20px rgba(0, 0, 0, 0.16);
   }
 
-  .cta::before {
-    left: 70px;
-    width: 28px;
-    height: 24px;
+  .cta::before,
+  .market-ctas .cta::before {
+    left: 42px;
+    width: 22px;
+    height: 19px;
   }
 
-  .cta::after {
-    right: 28px;
-    font-size: 31px;
+  .cta::after,
+  .market-ctas .cta::after {
+    right: 18px;
+    font-size: 22px;
   }
 
-  .cta small {
-    margin-bottom: 14px;
-    font-size: 15px;
-  }
-
-  .cta::after {
-    right: 28px;
-  }
-
-  .cta strong {
-    font-size: 20px;
+  .cta small,
+  .market-ctas .cta small {
+    margin-bottom: 7px;
+    font-size: 8px;
+    line-height: 1.15;
     white-space: nowrap;
   }
 
+  .cta::after,
+  .market-ctas .cta::after {
+    right: 18px;
+  }
+
+  .cta strong,
+  .market-ctas .cta strong {
+    font-size: 15px;
+    line-height: 1.15;
+    white-space: nowrap;
+    max-width: none;
+  }
+
   .cta small::before,
-  .cta small::after {
+  .cta small::after,
+  .market-ctas .cta small::before,
+  .market-ctas .cta small::after {
     width: 96px;
   }
 
-  .cta small::before {
-    right: calc(50% + 84px);
+  .cta small::before,
+  .market-ctas .cta small::before {
+    right: calc(50% + 85px);
   }
 
-  .cta small::after {
-    left: calc(50% + 84px);
+  .cta small::after,
+  .market-ctas .cta small::after {
+    left: calc(50% + 85px);
   }
 
   .mission-section {
@@ -2464,7 +2479,7 @@ address {
   }
 
   .taxi-section {
-    min-height: 600px;
+    min-height: 450px;
     align-items: start;
     padding: 74px 0 60px;
     background: #1a1911;
@@ -2474,7 +2489,7 @@ address {
     top: auto;
     left: 0;
     z-index: 0;
-    width: min(62%, 260px);
+    width: min(124%, 500px);
     height: auto;
     bottom: 0;
     object-fit: contain;
@@ -2510,7 +2525,7 @@ address {
     width: fit-content;
     margin: 0 auto 110px;
     padding: 26px 0 8px;
-    font-size: 27px;
+    font-size: 20px;
     line-height: 1.85;
     letter-spacing: 0.08em;
   }
@@ -2519,7 +2534,7 @@ address {
     position: relative;
     z-index: 1;
     margin-bottom: 0;
-    font-size: 24px;
+    font-size: 14px;
     line-height: 1.9;
     letter-spacing: 0.05em;
   }
@@ -2619,12 +2634,6 @@ address {
     height: 132px;
   }
 
-  .market-ctas {
-    width: min(472px, calc(100% - 92px));
-    margin-top: 88px;
-    gap: 48px;
-  }
-
   .results-grid strong,
   .market-grid strong {
     font-size: 6.8px;
@@ -2702,8 +2711,8 @@ address {
   .access-cta-card {
     width: min(352px, 100%);
     display: block;
-    min-height: 424px;
-    padding: 25px 16px 17px;
+    min-height: 0;
+    padding: 25px 16px 10px;
     text-align: left;
   }
 
@@ -2728,10 +2737,10 @@ address {
   }
 
   .access-cta-copy p {
-    max-width: 168px;
+    max-width: 160px;
     margin: 0 0 17px;
-    font-size: 11px;
-    line-height: 1.55;
+    font-size: 8.2px;
+    line-height: 1.42;
     white-space: normal;
   }
 
@@ -2758,7 +2767,7 @@ address {
     width: 100%;
     min-height: 88px;
     height: 88px;
-    margin: 17px auto 0;
+    margin: 12px auto 0;
     padding: 16px 38px 14px 30px;
     transform: none;
   }
@@ -2778,7 +2787,7 @@ address {
 
   .access-line-note {
     position: static;
-    margin-top: 4px;
+    margin-top: 2px;
     font-size: 10px;
     line-height: 1.45;
     text-align: left;
@@ -2934,8 +2943,8 @@ address {
     width: min(100%, 340px);
     margin: 0 auto;
     color: #fff;
-    font-size: 17.5px;
-    line-height: 2.5;
+    font-size: 13.2px;
+    line-height: 2.05;
     white-space: normal;
   }
 
@@ -3318,6 +3327,23 @@ address {
 
   .results-grid strong span {
     font-size: 9px;
+  }
+
+  .market-ctas {
+    width: calc(100% - 8px);
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-top: 42px;
+  }
+
+  .market-ctas .cta {
+    min-height: 74px;
+    overflow: hidden;
+    padding: 13px 42px 14px 76px;
+    border-width: 4px;
+    outline-width: 2px;
+    outline-offset: -8px;
+    box-shadow: 0 8px 0 rgba(0, 0, 0, 0.28), 0 15px 20px rgba(0, 0, 0, 0.16);
   }
 }
 
