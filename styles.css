@@ -2409,7 +2409,7 @@ address {
   }
 
   .mission-section {
-    display: none;
+    display: block;
   }
 
   .mission-section::before {
@@ -2428,7 +2428,7 @@ address {
   }
 
   .mission-message {
-    width: 100%;
+    width: 88%;
     padding: 42px 36% 38px 22px;
   }
 
@@ -2459,13 +2459,13 @@ address {
   }
 
   .mission-message h2 {
-    font-size: clamp(17px, 5vw, 22px);
+    font-size: clamp(13.6px, 4vw, 17.6px);
     line-height: 1.65;
   }
 
   .mission-message p:last-child {
     margin-top: 16px;
-    font-size: 11.5px;
+    font-size: 9.2px;
     line-height: 1.85;
   }
 
